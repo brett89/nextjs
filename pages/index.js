@@ -20,7 +20,7 @@ export default function Home() {
 				</h1>
 
 				<p className={styles.description}>
-					Test update
+					{`ENV VAR FOO: ${process.env.NEXT_PUBLIC_FOO}`}
 					<code className={styles.code}>pages/index.js</code>
 				</p>
 
